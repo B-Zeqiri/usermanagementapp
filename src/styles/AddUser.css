@@ -1,0 +1,139 @@
+.addUserContainer{
+    margin: 20px 50px 20px 50px;
+    box-shadow: 1px 1px 5px 1px #435565;
+}
+.addUserContainer h1{
+    border: 1px solid #ccdbe2;
+    height: 8vh;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    padding-top: 10px;
+    color: #849fab;
+}
+.personalAddressWrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+.personalInfo{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 20px 20px 20px;
+    box-shadow: 2px 2px 5px 1px #738a9a;
+}
+.personalInfo h3{
+    margin-top: 5px;
+    color: #8ca7b3;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.personalInfo input{
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 10px;
+    margin-top: 5px;
+    outline: none;
+}
+.addressInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 48%;
+    box-shadow: 2px 2px 5px 1px #738a9a;
+    padding-bottom: 20px;
+}
+.addressInfo h3{
+    margin-top: 5px;
+    color: #8ca7b3;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.addressInfo input{
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 10px;
+    margin-top: 5px;
+    outline: none;
+}
+.geoCompanyWrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+.geoInfo{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px 20px 20px 20px;
+    box-shadow: 2px 2px 5px 1px #738a9a;
+}
+.geoInfo h3{
+    margin-top: 5px;
+    color: #8ca7b3;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.geoInfo input{
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 10px;
+    margin-top: 5px;
+    outline: none;
+}
+.companyInfoDiv{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 0 20px 0;
+    box-shadow: 2px 2px 5px 1px #738a9a;
+}
+.companyInfoDiv h3{
+    margin-top: 5px;
+    color: #8ca7b3;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.companyInfoDiv input{
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid gray;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+.formButtons{
+    height: 7vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.formButtons button{
+    width: 200px;
+    height: 80%;
+    border-radius: 5px;
+    border: none;
+    margin-right: 50px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px 0.5px #738a9a;
+}
+.cancelButton{
+    color: red;
+}
+.submitButton{
+    color: green;
+}

@@ -27,7 +27,6 @@ const UserCard = ({ user }) => {
       sx: {
         bgcolor: '#2f4b67ff',
         color: 'white',
-        borderRadius: '16px',
         fontSize: 14,
         fontWeight: 'light',
         boxShadow: 3,
@@ -36,7 +35,7 @@ const UserCard = ({ user }) => {
     },
     arrow: {
       sx: {
-        color: '#1976d2',
+        color: '#2f4b67ff',
       }
     }
   }}
@@ -47,12 +46,12 @@ const UserCard = ({ user }) => {
       <div className='userInfo'>
         <div className='userEmail'>
           <MailOutlineIcon style={{fontSize: 40}}/>
-          <p>{user.email}</p>
+          <p> <strong>{user.email}</strong></p>
         </div>
         <br></br>
         <div className='companyInfo'>
-          <h4>Company:</h4>
-          <p>{user.company?.name}</p>
+          <p>Company:</p>
+          <p><strong>{user.company?.name}</strong></p>
         </div>
       </div>  
     </div>
