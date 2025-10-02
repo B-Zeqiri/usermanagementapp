@@ -43,3 +43,30 @@
 .searchBox input::placeholder{
     color: #CCDBE2;
 }
+.addUserButton{
+    margin: 30px 0 30px 0;
+    height: 5vh;
+    text-align: center;
+    border-top: 1px solid #636d7d;
+}
+
+.addUserButton button{
+    width: 80%;
+    height: 100%;
+    font-size: 16px;
+    border: none;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: #636d7d;
+    color: white;
+    cursor: pointer;
+}
+.userGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  max-width: fit-content;      
+  margin: 30px auto;      
+  padding: 16px;
+  justify-content: center; 
+}
