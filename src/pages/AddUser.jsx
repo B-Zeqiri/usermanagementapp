@@ -107,6 +107,7 @@ const AddUser = () => {
           <input value={bs} onChange={e=>setBs(e.target.value)}/>
         </div>
         <button type='submit'>Add User</button>
+        <button onClick={()=>navigate('/')}>Cancel</button>
       </form>
     </div>
   )

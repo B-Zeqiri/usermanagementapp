@@ -2,8 +2,44 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10px 10px 20px 10px;
+    margin-bottom:20px;
     padding: 10px;
-    border: 1px solid black;
-    height: 40px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: none;
+    height: 50px;
+    background-color: #435565;
+}
+.searchBox, .iconUserList, .sortButton{
+    width: 30%;
+}
+.iconUserList{
+    text-align: center;
+}
+.sortButton{
+    text-align: right;
+}
+.sortButton button{
+    width: 80px;
+    height: 3.5vh;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #738a9a;
+    box-shadow: 0px 0px 5px 0px rgba(235, 235, 235, 0.5);
+    cursor: pointer;
+    color: #738a9a;
+}
+.searchBox input{
+    width: 40%;
+    height: 3.5vh;
+    font-size: 16px;
+    padding-left: 10px;
+    border: 1px solid #CCDBE2;
+    color: #CCDBE2;
+    border-radius: 4px;
+    outline: none;
+    background-color: transparent;
+}
+.searchBox input::placeholder{
+    color: #CCDBE2;
 }
