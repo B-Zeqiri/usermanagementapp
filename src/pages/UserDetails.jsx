@@ -16,10 +16,8 @@ const UserDetails = () => {
     <div>
       <Link to="/">Back to User List</Link>
       <h1>{user.name}</h1>
-      <p>Address:{user.address.street}, 
-                 {user.address.suite}, 
-                 {user.address.city},
-                 {user.address.zipcode}
+      <p>Address:{
+        [user.address.street, user.address.suite, user.address.city, user.address.zipcode].filter(Boolean).join(',')}
       </p>
       <p>Phone: {user.phone}</p>
       <p>Website:{user.website}</p>

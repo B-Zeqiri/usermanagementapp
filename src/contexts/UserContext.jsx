@@ -16,8 +16,12 @@ export const UserProvider = ({ children }) => {
       });
   }, []);
 
+  const addUser = (user) => {
+    setUsers(prev => [{...user, id: Date.now()}, ...prev]);
+  };
+
   return (
-    <UserContext.Provider value={{users}}>
+    <UserContext.Provider value={{users, addUser}}>
       {children}
     </UserContext.Provider>
   );
