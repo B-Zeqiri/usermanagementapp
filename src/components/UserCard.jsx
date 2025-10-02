@@ -1,8 +1,10 @@
 import React from 'react';
 import '../styles/UserCard.css';
+import { Link } from 'react-router-dom';
 
 const UserCard = ({ user }) => {
   return (
+  <Link to={`/users/${user.id}`}>
     <div className='userCard'>
       <h2>{user.name}</h2>
       <div className='userInfo'>
@@ -17,6 +19,7 @@ const UserCard = ({ user }) => {
         </div>
       </div>  
     </div>
+  </Link>
   )
 }
 
