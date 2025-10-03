@@ -1,0 +1,63 @@
+.userDetailsWrapper{
+     display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  box-shadow: rgba(50, 50, 93, 0.25) 
+                     0px 50px 100px -20px, 
+                     rgba(0, 0, 0, 0.3) 
+                     0px 30px 60px -30px,
+                     rgba(10, 37, 64, 0.35) 
+                     0px -2px 6px 0px inset;
+}
+.userDetailsWrapper h2{
+    color: #697773;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.linkContainer{
+    height: fit-content;
+    background-color: #435565;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 160px;
+    border-radius: 5px;
+        box-shadow: 1px 2px 10px 2px gray;
+        transition: 1s all;
+}
+.linkContainer:hover {
+    box-shadow: 0 0 20px 8px #a0b4c4; /* bigger, all-around shadow on hover */
+}
+.userDetailsLink{
+    text-decoration: none;
+    color: #ccdbe2;
+    font-size: 20px;
+    font-size: large;
+    font-weight: 500;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+        .centeredDiv{
+    background-color: #ccdbe2;
+    width: 30vw;
+    height: fit-content;
+    margin: 10px;
+    padding: 15px;
+    box-shadow: 4px 2px 20px 10px #a0b4c4;
+    transition: 1s all;
+}
+.centeredDiv:hover {
+    box-shadow: 0 0 40px 8px #a0b4c4; /* bigger, all-around shadow on hover */
+}
+.centeredDiv h1{
+    color: #738a9a;
+}
+.centeredDiv p{
+    color: white;
+}
+.usersInformation3{
+    background-color: #435565;
+    padding: 10px;
+
+}

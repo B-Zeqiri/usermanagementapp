@@ -9,6 +9,11 @@
     padding: 10px;
     width: 20vw;
     background-color: #ccdbe2;
+    transition: 2s all;
+}
+.userCard:hover {
+    box-shadow: 0 6px 20px #738a9a;
+    transform: translateY(-6px) scale(1);
 }
 .userHeader{
     /* border: 1px solid red; */
