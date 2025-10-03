@@ -4,7 +4,9 @@ import { useNavigate } from "react-router-dom";
 import "../styles/AddUser.css";
 
 const AddUser = () => {
+
   const { addUser } = useContext(UserContext);
+
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [username, setUsername] = useState("");
@@ -119,42 +121,46 @@ const AddUser = () => {
           </div>
         </div>
         <div className="geoCompanyWrapper">
-        <div className="geoInfo">
-          <h3>Geo</h3>
-          <input
-            placeholder="lat"
-            value={lat}
-            onChange={(e) => setLat(e.target.value)}
-          />
-          <input
-            placeholder="lng"
-            value={lng}
-            onChange={(e) => setLng(e.target.value)}
-          />
-        </div>
+          <div className="geoInfo">
+            <h3>Geo</h3>
+            <input
+              placeholder="lat"
+              value={lat}
+              onChange={(e) => setLat(e.target.value)}
+            />
+            <input
+              placeholder="lng"
+              value={lng}
+              onChange={(e) => setLng(e.target.value)}
+            />
+          </div>
 
-        <div className="companyInfoDiv">
-          <h3>Company</h3>
-          <input
-            placeholder="name"
-            value={companyName}
-            onChange={(e) => setCompanyName(e.target.value)}
-          />
-          <input
-            placeholder="catch phrase"
-            value={catchPhrase}
-            onChange={(e) => setCatchPhrase(e.target.value)}
-          />
-          <input
-            placeholder="bs"
-            value={bs}
-            onChange={(e) => setBs(e.target.value)}
-          />
-        </div>
+          <div className="companyInfoDiv">
+            <h3>Company</h3>
+            <input
+              placeholder="name"
+              value={companyName}
+              onChange={(e) => setCompanyName(e.target.value)}
+            />
+            <input
+              placeholder="catch phrase"
+              value={catchPhrase}
+              onChange={(e) => setCatchPhrase(e.target.value)}
+            />
+            <input
+              placeholder="bs"
+              value={bs}
+              onChange={(e) => setBs(e.target.value)}
+            />
+          </div>
         </div>
         <div className="formButtons">
-          <button className="cancelButton" onClick={() => navigate("/")}>Cancel</button>
-          <button className="submitButton" type="submit">Add User</button>
+          <button type="button" className="cancelButton" onClick={() => navigate("/")}>
+            Cancel
+          </button>
+          <button className="submitButton" type="submit">
+            Add User
+          </button>
         </div>
       </form>
     </div>

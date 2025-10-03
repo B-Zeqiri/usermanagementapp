@@ -1,86 +1,88 @@
-.headerUserList{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom:20px;
-    padding: 10px;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
-    border: none;
-    height: 50px;
-    background-color: #435565;
+.headerUserList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border: none;
+  height: 50px;
+  background-color: #435565;
 }
-.searchBox, .iconUserList, .sortButton{
-    width: 30%;
+.searchBox,
+.iconUserList,
+.sortButton {
+  width: 30%;
 }
-.iconUserList{
-    text-align: center;
+.iconUserList {
+  text-align: center;
 }
-.sortButton{
-    text-align: right;
+.sortButton {
+  text-align: right;
 }
-.sortButton button{
-    width: 80px;
-    height: 3.5vh;
-    font-size: 16px;
-    border-radius: 4px;
-    border: 1px solid #738a9a;
-    box-shadow: 0px 0px 5px 0px rgba(235, 235, 235, 0.5);
-    cursor: pointer;
-    color: #738a9a;
-    transition: 0.5s all ease-in-out;
+.sortButton button {
+  width: 80px;
+  height: 3.5vh;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #738a9a;
+  box-shadow: 0px 0px 5px 0px rgba(235, 235, 235, 0.5);
+  cursor: pointer;
+  color: #738a9a;
+  transition: 0.5s all ease-in-out;
 }
 .sortButton button:hover {
-    background-color: #738a9a;
-    color: white;
-    border-color: #435565;
-    box-shadow: 0px 0px 10px 2px #a0b4c4;
+  background-color: #738a9a;
+  color: white;
+  border-color: #435565;
+  box-shadow: 0px 0px 10px 2px #a0b4c4;
 }
-.searchBox input{
-    width: 40%;
-    height: 3.5vh;
-    font-size: 16px;
-    padding-left: 10px;
-    border: 1px solid #CCDBE2;
-    color: #CCDBE2;
-    border-radius: 4px;
-    outline: none;
-    background-color: transparent;
+.searchBox input {
+  width: 40%;
+  height: 3.5vh;
+  font-size: 16px;
+  padding-left: 10px;
+  border: 1px solid #ccdbe2;
+  color: #ccdbe2;
+  border-radius: 4px;
+  outline: none;
+  background-color: transparent;
 }
-.searchBox input::placeholder{
-    color: #CCDBE2;
+.searchBox input::placeholder {
+  color: #ccdbe2;
 }
-.addUserButton{
-    margin: 30px 0 30px 0;
-    height: 5vh;
-    text-align: center;
-    border-top: 1px solid #636d7d;
+.addUserButton {
+  margin: 30px 0 30px 0;
+  height: 5vh;
+  text-align: center;
+  border-top: 1px solid #636d7d;
 }
 
-.addUserButton button{
-    width: 80%;
-    height: 100%;
-    font-size: 16px;
-    border: none;
-    border-bottom-right-radius: 30px;
-    border-bottom-left-radius: 30px;
-    background-color: #636d7d;
-    color: white;
-    cursor: pointer;
+.addUserButton button {
+  width: 80%;
+  height: 100%;
+  font-size: 16px;
+  border: none;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  background-color: #636d7d;
+  color: white;
+  cursor: pointer;
 }
 .addUserButton button:hover {
-    background-color: #4e5d70;
-    color: #ccdbe2;
-    transition: 0.2s;
-    box-shadow: 0px 2px 10px 0px #a0b4c4;
+  background-color: #4e5d70;
+  color: #ccdbe2;
+  transition: 0.2s;
+  box-shadow: 0px 2px 10px 0px #a0b4c4;
 }
 
 .userGrid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
-  max-width: fit-content;      
-  margin: 30px auto;      
+  max-width: fit-content;
+  margin: 30px auto;
   padding: 16px;
-  justify-content: center; 
+  justify-content: center;
 }
